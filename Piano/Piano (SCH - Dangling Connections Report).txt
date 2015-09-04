@@ -1,0 +1,14 @@
+Dangling Connections Report
+---------------------------
+
+Report File    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano (SCH - Dangling Connections Report).txt
+Report Written : Friday, October 25, 2013
+Design Path    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano.sch
+Design Title   : 
+Created        : 
+Last Saved     : 10/21/2013 1:52:32 PM
+Editing Time   : 3240 min
+Units          : mil (precision 0)
+
+
+End Of Report.

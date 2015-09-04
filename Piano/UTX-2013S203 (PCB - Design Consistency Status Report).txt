@@ -1,0 +1,20 @@
+Design Consistency Status Report
+--------------------------------
+
+Report File    : C:\Users\Anurag\Dropbox\EE445L\Piano\UTX-2013S203 (PCB - Design Consistency Status Report).txt
+Report Written : Wednesday, October 30, 2013
+Design Path    : C:\Users\Anurag\Dropbox\EE445L\Piano\UTX-2013S203.pcb
+Design Title   : 
+Created        : 9/11/2009 11:58:24 AM
+Last Saved     : 10/30/2013 10:56:58 PM
+Editing Time   : 7448 min
+Units          : inches (precision 3)
+
+
+Checking integrity of Schematic "C:\Users\Anurag\Dropbox\EE445L\Piano\UTX-2013S203.sch" with PCB "C:\Users\Anurag\Dropbox\EE445L\Piano\UTX-2013S203.pcb"
+========================================================================================================================================================
+
+The designs are the same.
+
+
+End Of Report.

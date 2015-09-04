@@ -1,0 +1,27 @@
+Dependencies for Project 'OLED', Target 'OLED': (DO NOT MODIFY !)
+F (.\OLEDTestMain.c)(0x522A2597)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\oledtestmain.o --omf_browse .\oledtestmain.crf --depend .\oledtestmain.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\Output.h)(0x4E370472)
+F (.\Output.c)(0x4E370464)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\output.o --omf_browse .\output.crf --depend .\output.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\rit128x96x4.h)(0x4C51E682)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\Output.h)(0x4E370472)
+F (.\rit128x96x4.c)(0x4E320BC0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rit128x96x4.o --omf_browse .\rit128x96x4.crf --depend .\rit128x96x4.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_ssi.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_memmap.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_sysctl.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_types.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\debug.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\gpio.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\ssi.h)(0x4D63F906)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\sysctl.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\rit128x96x4.h)(0x4C51E682)
+F (.\Startup.s)(0x4E53B814)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\startup.o --depend .\startup.d)
+F (.\fixed.c)(0x527EBEEB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\fixed.o --omf_browse .\fixed.crf --depend .\fixed.d)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\fixed.h)(0x522753C8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+F (.\tests.c)(0x522A2CFD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\tests.o --omf_browse .\tests.crf --depend .\tests.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\fixed.h)(0x522753C8)
+I (C:\Users\Anurag\Dropbox\EE445L\lab1\Output.h)(0x4E370472)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6185EA)()

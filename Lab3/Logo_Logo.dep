@@ -1,0 +1,43 @@
+Dependencies for Project 'Logo', Target 'Logo': (DO NOT MODIFY !)
+F (.\Startup.s)(0x523DDABC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\rit128x96x4.c)(0x523604C0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rit128x96x4.o --omf_browse .\rit128x96x4.crf --depend .\rit128x96x4.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_ssi.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_memmap.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_sysctl.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_types.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\debug.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\gpio.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\ssi.h)(0x4D63F906)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\sysctl.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\rit128x96x4.h)(0x523604C0)
+F (.\LogoTestMain.c)(0x5245EB7B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\logotestmain.o --omf_browse .\logotestmain.crf --depend .\logotestmain.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_types.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\sysctl.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\lm3s1968.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\rit128x96x4.h)(0x523604C0)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\logo.h)(0x523604BF)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\speaker.h)(0x523E19EF)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\clockOLED.h)(0x5240A7C5)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\timing.h)(0x523E0E39)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\buttons.h)(0x523CB8F2)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\menu.h)(0x523E1274)
+F (.\clockOLED.c)(0x52408A69)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\clockoled.o --omf_browse .\clockoled.crf --depend .\clockoled.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\rit128x96x4.h)(0x523604C0)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\clockOLED.h)(0x5240A7C5)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+F (.\speaker.c)(0x523E2CCB)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\speaker.o --omf_browse .\speaker.crf --depend .\speaker.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\lm3s1968.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\speaker.h)(0x523E19EF)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\timing.h)(0x523E0E39)
+F (.\buttons.c)(0x523DEDFB)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\buttons.o --omf_browse .\buttons.crf --depend .\buttons.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\buttons.h)(0x523CB8F2)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\timing.h)(0x523E0E39)
+F (.\timing.c)(0x523CE1F5)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\timing.o --omf_browse .\timing.crf --depend .\timing.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\timing.h)(0x523E0E39)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_nvic.h)(0x4C6185EC)
+F (.\menu.c)(0x523E1566)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib\rvmdk -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\menu.o --omf_browse .\menu.crf --depend .\menu.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\menu.h)(0x523E1274)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\timing.h)(0x523E0E39)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\buttons.h)(0x523CB8F2)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab3\clockOLED.h)(0x5240A7C5)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6185EA)()

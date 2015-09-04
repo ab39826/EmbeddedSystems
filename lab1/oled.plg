@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Anurag\Dropbox\EE445L\lab1\OLED.uvproj
+Project File Date:  09/06/2013
+
+<h2>Output:</h2>
+Rebuild target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(52): warning:  #177-D: variable "stoop" was declared but never referenced
+compiling Output.c...
+compiling rit128x96x4.c...
+assembling Startup.s...
+compiling fixed.c...
+fixed.c(38): warning:  #1-D: last line of file ends without a newline
+compiling tests.c...
+tests.c(5): warning:  #21-D: type qualifiers are meaningless in this declaration
+tests.c(23): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(24): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(25): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(26): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(46): warning:  #951-D: return type of function "main" must be "int"
+tests.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(57): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(62): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(64): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(69): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(74): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(76): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(81): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(86): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(94): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5140 RO-data=1160 RW-data=40 ZI-data=1544  
+".\oled.axf" - 0 Errors, 18 Warning(s).
+Rebuild target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(52): warning:  #177-D: variable "stoop" was declared but never referenced
+compiling Output.c...
+compiling rit128x96x4.c...
+assembling Startup.s...
+compiling fixed.c...
+fixed.c(38): warning:  #1-D: last line of file ends without a newline
+compiling tests.c...
+tests.c(5): warning:  #21-D: type qualifiers are meaningless in this declaration
+tests.c(23): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(24): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(25): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(26): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(46): warning:  #951-D: return type of function "main" must be "int"
+tests.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(57): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(62): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(64): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(69): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(74): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(76): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(81): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(86): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(94): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5140 RO-data=1160 RW-data=40 ZI-data=1544  
+".\oled.axf" - 0 Errors, 18 Warning(s).
+Rebuild target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(52): warning:  #177-D: variable "stoop" was declared but never referenced
+compiling Output.c...
+compiling rit128x96x4.c...
+assembling Startup.s...
+compiling fixed.c...
+fixed.c(38): warning:  #1-D: last line of file ends without a newline
+compiling tests.c...
+tests.c(5): warning:  #21-D: type qualifiers are meaningless in this declaration
+tests.c(23): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(24): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(25): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(26): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(46): warning:  #951-D: return type of function "main" must be "int"
+tests.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(57): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(62): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(64): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(69): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(74): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(76): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(81): warning:  #223-D: function "strcmp" declared implicitly
+tests.c(86): warning:  #68-D: integer conversion resulted in a change of sign
+tests.c(94): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5140 RO-data=1160 RW-data=40 ZI-data=1544  
+".\oled.axf" - 0 Errors, 18 Warning(s).

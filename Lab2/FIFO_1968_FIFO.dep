@@ -1,0 +1,31 @@
+Dependencies for Project 'FIFO_1968', Target 'FIFO': (DO NOT MODIFY !)
+F (.\Startup.s)(0x522E299B)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\FIFO.c)(0x523393DF)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\fifo.o --omf_browse .\fifo.crf --depend .\fifo.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\FIFO.h)(0x522E299A)
+F (.\FIFOTestMain.c)(0x52376A59)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\fifotestmain.o --omf_browse .\fifotestmain.crf --depend .\fifotestmain.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_types.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\sysctl.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\lm3s1968.h)(0x4C6185EC)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\Output.h)(0x4E370472)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\drawLine.h)(0x52362B26)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\FIFO.h)(0x522E299A)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\rit128x96x4.h)(0x4C51E682)
+F (.\drawLine.c)(0x52363306)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\drawline.o --omf_browse .\drawline.crf --depend .\drawline.d)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\rit128x96x4.h)(0x4C51E682)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\drawLine.h)(0x52362B26)
+F (.\Output.c)(0x4E370464)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\output.o --omf_browse .\output.crf --depend .\output.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\rit128x96x4.h)(0x4C51E682)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\Output.h)(0x4E370472)
+F (.\rit128x96x4.c)(0x4E320BC0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rit128x96x4.o --omf_browse .\rit128x96x4.crf --depend .\rit128x96x4.d)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_ssi.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_memmap.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_sysctl.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\inc\hw_types.h)(0x4C6185EC)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\debug.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\gpio.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\ssi.h)(0x4D63F906)
+I (C:\Users\Anurag\Dropbox\EE445L\driverlib\sysctl.h)(0x4C6185EA)
+I (C:\Users\Anurag\Dropbox\EE445L\Lab2\rit128x96x4.h)(0x4C51E682)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6185EA)()

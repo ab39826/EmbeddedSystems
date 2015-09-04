@@ -1,0 +1,1 @@
+.\badfifo.o: BadFifo.c

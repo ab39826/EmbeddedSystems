@@ -1,0 +1,16 @@
+Forward Design Changes Report
+-----------------------------
+
+Report File    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano (PCB - Forward Design Changes Report).txt
+Report Written : Wednesday, October 30, 2013
+Design Path    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano.pcb
+Design Title   : 
+Created        : 9/11/2009 11:58:24 AM
+Last Saved     : 10/30/2013 4:36:11 PM
+Editing Time   : 7069 min
+Units          : mil (precision 0)
+
+The designs are the same, so no design changes to forward.
+
+
+End Of Report.

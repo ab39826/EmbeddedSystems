@@ -1,0 +1,378 @@
+******************************************************************************
+                  TMS470 Linker PC v4.9.1                      
+******************************************************************************
+>> Linked Tue Jul 03 18:02:08 2012
+
+OUTPUT FILE NAME:   <FIFO_1968.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000e15
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  00000eea  0003f116  R  X
+  SRAM                  20000000   00010000  000002b9  0000fd47  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    00000ef0   00000ef0    r-x
+  00000000    00000000    000000f0   000000f0    r-- .intvecs
+  000000f0    000000f0    00000dc2   00000dc2    r-x .text
+  00000eb8    00000eb8    00000038   00000038    r-- .cinit
+20000000    20000000    000002a4   00000000    rw-
+  20000000    20000000    000001a4   00000000    rw- .bss
+  200001a4    200001a4    00000100   00000000    rw- .stack
+200002a4    200002a4    00000015   00000015    rw-
+  200002a4    200002a4    00000015   00000015    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    000000f0     
+                  00000000    000000f0     startup_ccsValvanoWare.obj (.intvecs)
+
+.text      0    000000f0    00000dc2     
+                  000000f0    000007cc     FIFOTestMain.obj (.text)
+                  000008bc    00000174     FIFO.obj (.text)
+                  00000a30    00000128     driverlib.lib : sysctl.obj (.text:SysCtlClockSet)
+                  00000b58    0000009e     startup_ccsValvanoWare.obj (.text)
+                  00000bf6    0000009c     rtsv7M3_T_le_eabi.lib : memcpy_t2.obj (.text)
+                  00000c92    00000002     --HOLE-- [fill = 0]
+                  00000c94    00000094                           : auto_init.obj (.text)
+                  00000d28    0000005e                           : copy_decompress_rle.obj (.text)
+                  00000d86    00000002     --HOLE-- [fill = 0]
+                  00000d88    00000048                           : cpy_tbl.obj (.text)
+                  00000dd0    00000044                           : exit.obj (.text)
+                  00000e14    00000034                           : boot.obj (.text)
+                  00000e48    00000018                           : _lock.obj (.text)
+                  00000e60    00000018                           : args_main.obj (.text)
+                  00000e78    00000014     driverlib.lib : sysctl.obj (.text:SysCtlDelay)
+                  00000e8c    00000012     rtsv7M3_T_le_eabi.lib : copy_zero_init.obj (.text:decompress:ZI)
+                  00000e9e    0000000e                           : copy_decompress_none.obj (.text:decompress:none)
+                  00000eac    00000006                           : copy_decompress_rle.obj (.text:decompress:rle24)
+
+.cinit     0    00000eb8    00000038     
+                  00000eb8    00000010     (.cinit..data.load) [load image, compression = rle]
+                  00000ec8    0000000c     (__TI_handler_table)
+                  00000ed4    00000004     --HOLE-- [fill = 0]
+                  00000ed8    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  00000ee0    00000010     (__TI_cinit_table)
+
+.bss       0    20000000    000001a4     UNINITIALIZED
+                  20000000    00000080     FIFOTestMain.obj (.bss:LineHistogram)
+                  20000080    00000080     FIFOTestMain.obj (.bss:LineHistogramAddress)
+                  20000100    0000005e     FIFOTestMain.obj (.bss)
+                  2000015e    00000002     --HOLE--
+                  20000160    00000040     FIFO.obj (.bss)
+                  200001a0    00000004     driverlib.lib : sysctl.obj (.bss)
+
+.stack     0    200001a4    00000100     UNINITIALIZED
+                  200001a4    00000100     --HOLE--
+
+.data      0    200002a4    00000015     
+                  200002a4    00000008     rtsv7M3_T_le_eabi.lib : _lock.obj (.data)
+                  200002ac    00000008                           : exit.obj (.data)
+                  200002b4    00000004                           : stkdepth_vars.obj (.data)
+                  200002b8    00000001     FIFOTestMain.obj (.data)
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00000ee0 records: 2, size/record: 8, table size: 16
+	.data: load addr=00000eb8, load size=00000010 bytes, run addr=200002a4, run size=00000015 bytes, compression=rle
+	.bss: load addr=00000ed8, load size=00000008 bytes, run addr=20000000, run size=000001a4 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00000ec8 records: 3, size/record: 4, table size: 12
+	index: 0, handler: __TI_decompress_rle24
+	index: 1, handler: __TI_decompress_none
+	index: 2, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000b8f   ADC0_Handler
+00000b91   ADC1_Handler
+00000b93   ADC2_Handler
+00000b95   ADC3_Handler
+20000152   BackCounter
+20000151   BackData
+00000dd1   C$$EXIT
+00000bc1   CAN0_Handler
+00000bc3   CAN1_Handler
+00000bc5   CAN2_Handler
+00000ba5   Comp0_Handler
+00000ba7   Comp1_Handler
+00000ba9   Comp2_Handler
+00000bd3   DisableInterrupts
+00000bd9   EnableInterrupts
+00000be9   EndCritical
+2000015c   EnterGet
+20000154   EnteredCount
+2000015a   Errors
+00000bc7   Ethernet_Handler
+00000bad   FlashCtl_Handler
+20000159   ForeActual
+20000158   ForeExpected
+00000b73   GPIOPortA_Handler
+00000b75   GPIOPortB_Handler
+00000b77   GPIOPortC_Handler
+00000b79   GPIOPortD_Handler
+00000b7b   GPIOPortE_Handler
+00000baf   GPIOPortF_Handler
+00000bb1   GPIOPortG_Handler
+00000bb3   GPIOPortH_Handler
+00000bc9   Hibernate_Handler
+00000b83   I2C0_Handler
+00000bbd   I2C1_Handler
+00000b71   IntDefaultHandler
+20000000   LineHistogram
+20000080   LineHistogramAddress
+00000b87   PWM0_Handler
+00000b89   PWM1_Handler
+00000b8b   PWM2_Handler
+00000bcd   PWM3_Handler
+00000b85   PWMFault_Handler
+00000b6d   PendSV_Handler
+00000b8d   Quadrature0_Handler
+00000bbf   Quadrature1_Handler
+000001e1   Rx2Fifo_Get
+00000187   Rx2Fifo_Init
+000001a1   Rx2Fifo_Put
+0000021d   Rx2Fifo_Size
+2000012c   Rx2GetPt
+20000128   Rx2PutPt
+000009ad   RxFifo_Get
+00000953   RxFifo_Init
+0000096d   RxFifo_Put
+000009e9   RxFifo_Size
+2000017c   RxGetPt
+20000178   RxPutPt
+00000b81   SSI0_Handler
+00000bb7   SSI1_Handler
+00000bdf   StartCritical
+00000a31   SysCtlClockSet
+00000e79   SysCtlDelay
+00000bab   SysCtl_Handler
+00000b6f   SysTick_Handler
+00000251   Timer0A_Handler
+00000b9b   Timer0B_Handler
+00000b9d   Timer1A_Handler
+00000b9f   Timer1B_Handler
+00000ba1   Timer2A_Handler
+00000ba3   Timer2B_Handler
+00000bb9   Timer3A_Handler
+00000bbb   Timer3B_Handler
+00000145   Tx2Fifo_Get
+000000f1   Tx2Fifo_Init
+0000010b   Tx2Fifo_Put
+00000179   Tx2Fifo_Size
+20000104   Tx2GetI
+20000100   Tx2PutI
+00000911   TxFifo_Get
+000008bd   TxFifo_Init
+000008d7   TxFifo_Put
+00000945   TxFifo_Size
+20000164   TxGetI
+20000160   TxPutI
+00000b7d   UART0_Handler
+00000b7f   UART1_Handler
+00000bb5   UART2_Handler
+00000bcb   USB0_Handler
+00000b97   WDT_Handler
+00000bf1   WaitForInterrupt
+00000247   Who
+200002a4   __STACK_END
+00000100   __STACK_SIZE
+200002a4   __STACK_TOP
+00000ee0   __TI_CINIT_Base
+00000ef0   __TI_CINIT_Limit
+00000ec8   __TI_Handler_Table_Base
+00000ed4   __TI_Handler_Table_Limit
+00000001   __TI_args_main
+00000c95   __TI_auto_init
+00000e9f   __TI_decompress_none
+00000ead   __TI_decompress_rle24
+00000000   __TI_static_base__
+00000e8d   __TI_zero_init
+00000bf7   __aeabi_memcpy
+00000bf7   __aeabi_memcpy4
+00000bf7   __aeabi_memcpy8
+ffffffff   __binit__
+ffffffff   __c_args__
+200001a4   __stack
+00000e61   _args_main
+00000e15   _c_int00
+200002ac   _cleanup_ptr
+200002b0   _dtors_ptr
+200002a4   _lock
+00000e55   _nop
+00000e4f   _register_lock
+00000e49   _register_unlock
+200002a8   _unlock
+00000dd5   abort
+ffffffff   binit
+00000d89   copy_in
+00000ddd   exit
+00000000   g_pfnVectors
+200001a0   g_ulInlineCCSWorkaround
+20000150   letter
+00000341   main
+00000545   main2
+200002b4   main_func_sp
+00000bf7   memcpy
+2000014c   result
+00000bd1   uDMA_Error
+00000bcf   uDMA_Handler
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   __TI_static_base__
+00000000   g_pfnVectors
+00000001   __TI_args_main
+000000f1   Tx2Fifo_Init
+00000100   __STACK_SIZE
+0000010b   Tx2Fifo_Put
+00000145   Tx2Fifo_Get
+00000179   Tx2Fifo_Size
+00000187   Rx2Fifo_Init
+000001a1   Rx2Fifo_Put
+000001e1   Rx2Fifo_Get
+0000021d   Rx2Fifo_Size
+00000247   Who
+00000251   Timer0A_Handler
+00000341   main
+00000545   main2
+000008bd   TxFifo_Init
+000008d7   TxFifo_Put
+00000911   TxFifo_Get
+00000945   TxFifo_Size
+00000953   RxFifo_Init
+0000096d   RxFifo_Put
+000009ad   RxFifo_Get
+000009e9   RxFifo_Size
+00000a31   SysCtlClockSet
+00000b6d   PendSV_Handler
+00000b6f   SysTick_Handler
+00000b71   IntDefaultHandler
+00000b73   GPIOPortA_Handler
+00000b75   GPIOPortB_Handler
+00000b77   GPIOPortC_Handler
+00000b79   GPIOPortD_Handler
+00000b7b   GPIOPortE_Handler
+00000b7d   UART0_Handler
+00000b7f   UART1_Handler
+00000b81   SSI0_Handler
+00000b83   I2C0_Handler
+00000b85   PWMFault_Handler
+00000b87   PWM0_Handler
+00000b89   PWM1_Handler
+00000b8b   PWM2_Handler
+00000b8d   Quadrature0_Handler
+00000b8f   ADC0_Handler
+00000b91   ADC1_Handler
+00000b93   ADC2_Handler
+00000b95   ADC3_Handler
+00000b97   WDT_Handler
+00000b9b   Timer0B_Handler
+00000b9d   Timer1A_Handler
+00000b9f   Timer1B_Handler
+00000ba1   Timer2A_Handler
+00000ba3   Timer2B_Handler
+00000ba5   Comp0_Handler
+00000ba7   Comp1_Handler
+00000ba9   Comp2_Handler
+00000bab   SysCtl_Handler
+00000bad   FlashCtl_Handler
+00000baf   GPIOPortF_Handler
+00000bb1   GPIOPortG_Handler
+00000bb3   GPIOPortH_Handler
+00000bb5   UART2_Handler
+00000bb7   SSI1_Handler
+00000bb9   Timer3A_Handler
+00000bbb   Timer3B_Handler
+00000bbd   I2C1_Handler
+00000bbf   Quadrature1_Handler
+00000bc1   CAN0_Handler
+00000bc3   CAN1_Handler
+00000bc5   CAN2_Handler
+00000bc7   Ethernet_Handler
+00000bc9   Hibernate_Handler
+00000bcb   USB0_Handler
+00000bcd   PWM3_Handler
+00000bcf   uDMA_Handler
+00000bd1   uDMA_Error
+00000bd3   DisableInterrupts
+00000bd9   EnableInterrupts
+00000bdf   StartCritical
+00000be9   EndCritical
+00000bf1   WaitForInterrupt
+00000bf7   __aeabi_memcpy
+00000bf7   __aeabi_memcpy4
+00000bf7   __aeabi_memcpy8
+00000bf7   memcpy
+00000c95   __TI_auto_init
+00000d89   copy_in
+00000dd1   C$$EXIT
+00000dd5   abort
+00000ddd   exit
+00000e15   _c_int00
+00000e49   _register_unlock
+00000e4f   _register_lock
+00000e55   _nop
+00000e61   _args_main
+00000e79   SysCtlDelay
+00000e8d   __TI_zero_init
+00000e9f   __TI_decompress_none
+00000ead   __TI_decompress_rle24
+00000ec8   __TI_Handler_Table_Base
+00000ed4   __TI_Handler_Table_Limit
+00000ee0   __TI_CINIT_Base
+00000ef0   __TI_CINIT_Limit
+20000000   LineHistogram
+20000080   LineHistogramAddress
+20000100   Tx2PutI
+20000104   Tx2GetI
+20000128   Rx2PutPt
+2000012c   Rx2GetPt
+2000014c   result
+20000150   letter
+20000151   BackData
+20000152   BackCounter
+20000154   EnteredCount
+20000158   ForeExpected
+20000159   ForeActual
+2000015a   Errors
+2000015c   EnterGet
+20000160   TxPutI
+20000164   TxGetI
+20000178   RxPutPt
+2000017c   RxGetPt
+200001a0   g_ulInlineCCSWorkaround
+200001a4   __stack
+200002a4   __STACK_END
+200002a4   __STACK_TOP
+200002a4   _lock
+200002a8   _unlock
+200002ac   _cleanup_ptr
+200002b0   _dtors_ptr
+200002b4   main_func_sp
+ffffffff   __binit__
+ffffffff   __c_args__
+ffffffff   binit
+
+[133 symbols]

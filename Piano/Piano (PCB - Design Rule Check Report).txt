@@ -1,0 +1,58 @@
+Design Rule Check Report
+------------------------
+
+Report File    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano (PCB - Design Rule Check Report).txt
+Report Written : Wednesday, October 30, 2013
+Design Path    : C:\Users\Anurag\Dropbox\EE445L\Piano\Piano.pcb
+Design Title   : 
+Created        : 9/11/2009 11:58:24 AM
+Last Saved     : 10/30/2013 4:36:11 PM
+Editing Time   : 7069 min
+Units          : mil (precision 0)
+
+
+Results
+=======
+
+
+No errors found
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks         Yes
+Pads and Vias  Yes
+Shapes         Yes
+Text           Yes
+Board          Yes
+Drills         Yes
+Components     No
+
+
+Manufacturing
+
+==============
+
+Min Drill Hole Size  Yes
+Min Track Width      Yes
+Min Annular Ring     Yes
+Drill Breakout       Yes
+
+
+Nets
+
+=====
+
+Net Completion                Yes
+Dangling Tracks               Yes
+Net Track Length Differences  No
+
+
+
+End Of Report.

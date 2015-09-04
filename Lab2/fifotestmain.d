@@ -1,0 +1,9 @@
+.\fifotestmain.o: FIFOTestMain.c
+.\fifotestmain.o: ..\inc\hw_types.h
+.\fifotestmain.o: ..\driverlib\sysctl.h
+.\fifotestmain.o: ..\inc\lm3s1968.h
+.\fifotestmain.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\fifotestmain.o: Output.h
+.\fifotestmain.o: drawLine.h
+.\fifotestmain.o: FIFO.h
+.\fifotestmain.o: rit128x96x4.h

@@ -1,0 +1,322 @@
+Net "Gnd"
+C4.2
+GND2.1
+C3.2
+GND1.1
+GND7.1
+SW1.1
+GND.1
+C8.2
+GND8.1
+C7.2
+GND6.1
+C5.2
+GND10.1
+U1.8
+U1.31
+U1.24
+U1.16
+C6.2
+GND5.1
+C9.2
+C10.2
+J1.4
+GND4.1
+J1.6
+J1.8
+J1.10
+J1.12
+J1.14
+J1.16
+J1.18
+J1.20
+C12.2
+GND11.1
+D1.1
+C2.2
+J6.1
+GND18.1
+J6.8
+J6.4
+J6.5
+J6.6
+J6.7
+J6.3
+J6.2
+SW1.2
+J2.2
+U2.2
+U3.3
+GND9.1
+U3.5
+U4.3
+R9.1
+GND13.1
+GND19.1
+J9.2
+GND14.1
+J3.2
+GND15.1
+J5.2
+GND20.1
+J10.2
+GND22.1
+J12.2
+GND17.1
+J8.2
+GND16.1
+J7.2
+GND21.1
+J11.2
+GND28.1
+J18.2
+GND26.1
+J16.2
+GND27.1
+J17.2
+GND29.1
+J19.2
+GND25.1
+D2.1
+GND24.1
+D3.1
+GND23.1
+D4.1
+C11.2
+GND3.1
+TP3.3
+TP3.1
+C14.2
+
+Net "+3.3"
+C5.1
+U1.32
+U1.23
+C6.1
+U1.15
+C8.1
+U1.7
+C7.1
+REF1.1
+REF3.1
+REF4.1
+J1.1
+R2.2
+C12.1
+R3.1
+TP2.1
+REF8.1
+R1.2
+U2.3
+REF5.1
+U3.8
+REF6.1
+REF7.1
+R10.2
+REF9.1
+R21.2
+R16.2
+R22.2
+R23.2
+R24.2
+R18.2
+R19.2
+R20.2
+REF10.1
+D4.2
+R6.2
+REF11.1
+REF12.1
+D3.2
+R7.2
+D2.2
+R8.2
+REF13.1
+R31.2
+REF14.1
+TP3.8
+C11.1
+REF15.1
+R29.2
+R28.2
+R30.2
+C13.1
+
+Net "OSC1"
+Y1.1
+C4.1
+U1.10
+
+Net "RST"
+R2.1
+U1.5
+SW1.4
+SW1.3
+
+Net "+7.4"
+C2.1
+TP1.1
+U2.1
+J2.1
+
+Net "OSC0"
+U1.9
+Y1.2
+C3.1
+
+Net "LDO"
+U1.6
+C9.1
+C10.1
+
+Net "PC2"
+U1.38
+J1.5
+
+Net "PC0"
+U1.40
+J1.9
+
+Net "PC3"
+U1.37
+J1.13
+
+Net "PC1"
+U1.39
+J1.7
+
+Net "PowerLED"
+R3.2
+D1.2
+
+Net "PB7"
+R1.1
+U1.41
+
+Net "FssOut"
+U1.20
+U3.4
+
+Net "SClkOut"
+U1.19
+U3.2
+
+Net "TxOut"
+U1.22
+U3.1
+
+Net "Refin"
+R10.1
+U3.6
+R11.2
+U4.2
+
+Net "ReferenceInZener"
+U4.1
+R9.2
+R11.1
+
+Net "Key5"
+R16.1
+J3.1
+U1.45
+
+Net "Key6"
+R18.1
+J5.1
+U1.46
+
+Net "Key7"
+R19.1
+J7.1
+U1.47
+
+Net "Key8"
+R20.1
+J8.1
+U1.48
+
+Net "Key1"
+R21.1
+J9.1
+U1.25
+
+Net "Key2"
+R22.1
+J10.1
+U1.26
+
+Net "Key3"
+R23.1
+J11.1
+U1.27
+
+Net "Key4"
+R24.1
+J12.1
+U1.28
+
+Net "PlaybackOut"
+R28.1
+J16.1
+U1.43
+
+Net "RecordOut"
+R29.1
+J17.1
+U1.42
+
+Net "ChangeTrackOut"
+R30.1
+J18.1
+U1.44
+
+Net "Track1Out"
+R6.1
+U1.33
+
+Net "Track2Out"
+R7.1
+U1.30
+
+Net "Track3Out"
+R8.1
+U1.29
+
+Net "ChangeInstrumentOut"
+J19.1
+U1.34
+R31.1
+
+Net "5616Out"
+U3.7
+TP4.1
+C15.1
+
+Net "5616Capacitor"
+C15.2
+R4.1
+
+Net "TPA301In-"
+R4.2
+R5.1
+TP3.6
+
+Net "VoPlus++"
+R5.2
+TP3.7
+J13.1
+
+Net "VoMinus--"
+J13.2
+TP3.4
+
+Net "BypassPlusIn+"
+TP3.2
+C14.1
+TP3.5
+
+Net "N0600"
+C13.2
+GND12.1
+
